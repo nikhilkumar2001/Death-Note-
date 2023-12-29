@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./img/notewallpaper.webp");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerText {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 700px;
+  width: 400px;
+  top: 1em;
+  background-image: url("./img/deathNote.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.updateText {
+  display: flex;
+  position: fixed;
+  top: 3cm;
+  height: 1.5cm;
+  margin-top: 2cm;
+  padding: 1em;
+  width: 5cm;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  background-color: rgba(34, 33, 33, 0.418);
+  color: azure;
+}
+.updateText:hover {
+    background-color: rgb(98, 96, 96);
+}
+
+.containerInput {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 0.5rem;
+  height: 500px;
+  width: 500px;
+  left: 5cm;
+  background-color: black;
+}
+.input1 {
+  display: flex;
+  position: relative;
+  height: 40px;
+  top: 10cm;
+  left: 4em;
+  border-radius: 20px;
+  padding-left: 2em;
+}
+
+.input2 {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    top: 7em;
+    right: 9em;
+    border-radius: 20px;
+    padding-left: 2em;
+  }
+  
+.input3 {
+    display: flex;
+    position: relative;
+    width: 90px;
+    height: 30px;
+    top: 7em;
+    right: 4em;
+    border-radius: 20px;
+    padding-left: 2em;
+  }
+  
+  #fontSelector {
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 30px;
+    top: 2em;
+    right: 15em;
+    border-radius: 20px;
+    padding-left: 2em;
+  }

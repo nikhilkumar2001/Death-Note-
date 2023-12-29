@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" >
+    <title>Death Note</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="containerText">
+            <p class="updateText" id="displayText" draggable="true">Click inside to drag</p>
+        </div>
+        <div class="containerInput">
+            <input class="input1" type="text" oninput="updateText(this.value)" placeholder="write your death wish">
+            <input class="input2" type="number" oninput="changeText(this.value)" placeholder="Size" >
+            <input class="input3" type="color" placeholder="color"  onchange="changeTextColor(this.value)">
+             <div>
+                <select id="fontSelector" onchange="changeFont(this.value)">
+                    <option value="Arial">Arial</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                    <option value="sans-serif">sans-serif</option>
+                    <option value="Franklin Gothic Medium">Franklin Gothic Medium</option>
+                    <option value="Gill Sans">Gill Sans</option>
+                    <option value="Trebuchet MS">Trebuchet MS</option>
+                    <option value="Lucida Grande">Lucida Grande</option>
+                    <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+                    <option value="Lucida Sans Regular">Lucida Sans Regular</option>
+                    <option value="Segoe UI">Segoe UI</option>
+                </select>
+             </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
